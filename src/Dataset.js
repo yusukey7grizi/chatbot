@@ -75,18 +75,6 @@ const Data = {
     question:
       "私は、春学期から大学を休学して、プログラミングの勉強に力を入れてます！エンジニアを目指し、現在はHTML , CSS, Javascript, React, そしてReact Nativeを学習してます！",
   },
-  study_method: {
-    answers: [
-      {
-        content: "Udemyについて詳しく知りたい！",
-        nextId: "https://www.udemy.com/",
-        id: 1,
-      },
-
-      { content: "最初の質問に戻る", nextId: "init", id: 2 },
-    ],
-    question: "Udemyというオンライン学習サービスを利用して勉強しています！",
-  },
   scout: {
     answers: [
       {
@@ -104,6 +92,19 @@ const Data = {
     question:
       "ありがとうございます！Wantedly、またはメールでのご連絡をお願い致します！",
   },
+  study_method: {
+    answers: [
+      {
+        content: "Udemyについて詳しく知りたい！",
+        nextId: "https://www.udemy.com/",
+        id: 1,
+      },
+
+      { content: "最初の質問に戻る", nextId: "init", id: 2 },
+    ],
+    question: "Udemyというオンライン学習サービスを利用して勉強しています！",
+  },
+
   reason_for_programming: {
     answers: [
       {
